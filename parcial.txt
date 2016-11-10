@@ -1,0 +1,43 @@
+Parcial POO
+Germán David García Nieves
+1)--------------
+
+a) Se debe cumplir que la clase BuildingFire herede de la clase Emergency y que tenga métodos getter y setters en la clase Emergency
+b) La clase Disaster sí puede ser abstracta independientemente de que Disaster no lo sea
+c) La clase TrafficAccident es capaz de sobreescribir los métodos de sus superclases como abstractos
+d) Los métodos estáticos de una clase no pueden ser sobreescritos a sus subclases 
+e) Una clase puede invocar a los métodos de sus subclases y de las subclases de estas siempre y cuando el identificador de acceso lo permita. La superclase también puede crear objetos de sus
+   subclases y las subclases de estas
+f) No se puede. Una clase puede crear un objeto de sus subclases pero una subclase no puede crear un objeto de una superclase
+g) C extiende a A e implementa a D
+
+
+2)--------------
+
+a) Output: G
+G 1 
+G 2 
+
+F
+G 1 
+F 2 
+G 2 
+
+F
+H 1 
+E 2 
+H 1 
+
+F
+G 1 
+E 2 
+G 1 
+
+
+3)---------------
+
+a) Output: 0 1
+b) Output: 0
+
+
+
